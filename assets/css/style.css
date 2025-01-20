@@ -57,13 +57,32 @@ section {
     display: flex;
 }
 
+.hover:hover {
+    transform: scale(1.1);
+    transition: 300ms all;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.links:hover {
+    transform: scale(1.1);
+    transition: 300ms all;
+}
+
 .links {
+    cursor: pointer;
     display: flex;
     align-items: center;
     text-align: center;
     gap: 39px;
     color: #FFFFFF;
     font-family: "Jost", serif;
+}
+
+.pointer {
+    cursor: pointer;
 }
 
 .mt-12 {
@@ -159,7 +178,26 @@ section {
     margin-right: 70%;
     margin-top: 44px;
     background: linear-gradient(135.55deg, #06AFF2 -2.07%, #056BF1 105.81%);
+    cursor: pointer;
 
+}
+
+.text-4:hover {
+    width: 167px;
+    height: 55px;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 30.5px;
+    font-family: "Jost", serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22.8px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-right: 70%;
+    margin-top: 44px;
+    background: linear-gradient(135.55deg, #06AFF2 -2.07%, #056BF1 105.81%);
+    cursor: pointer;
 }
 
 .text-4 {
@@ -218,7 +256,7 @@ section {
 }
 
 .mt-200 {
-    margin-top: 200px;
+    margin-top: 300px;
 }
 
 @media (min-width:1200px) {
