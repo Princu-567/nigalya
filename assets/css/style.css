@@ -177,6 +177,9 @@ section {
     cursor: pointer;
 
 }
+.btn-white{
+    transition: all 500ms linear;
+}
 
 .text-4:hover {
     width: 167px;
