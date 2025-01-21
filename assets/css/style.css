@@ -290,6 +290,7 @@ section {
         display: flex;
         flex-direction: column;
         position: fixed;
+        transition: all 500ms linear;
     }
 
     label[for="menubar"] {
@@ -312,7 +313,7 @@ section {
         height: 5px;
         background-color: black;
         border-radius: 3px;
-        transition: all 150ms linear;
+        transition: all 500ms linear;
     }
 
     input:checked~.link {
