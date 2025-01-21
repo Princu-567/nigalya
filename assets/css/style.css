@@ -36,13 +36,12 @@ section {
 }
 
 .navbar {
-    z-index: 1;
     background: #00000080;
     backdrop-filter: blur(20px)
 }
 
 .bg-img {
-    background-image: url(../image/img.png);
+    background-image: url(../image/frame.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -55,6 +54,10 @@ section {
 
 .d-flex {
     display: flex;
+}
+
+.justify-content {
+    justify-content: center;
 }
 
 .hover:hover {
@@ -97,16 +100,6 @@ section {
     justify-content: space-between;
 }
 
-.image {
-    position: absolute;
-    left: 0;
-}
-
-.image-2 {
-    position: absolute;
-    left: 0;
-}
-
 .col-6 {
     width: 50%;
     padding-left: 12px;
@@ -142,7 +135,7 @@ section {
 }
 
 .head-2 {
-    width: 561px;
+    width: 576px;
     font-family: "Jost", serif;
     font-size: 96px;
     font-weight: 900;
@@ -265,6 +258,7 @@ section {
         padding-left: 12px;
         padding-right: 12px;
     }
+
 }
 
 @media (max-width:768px) {
